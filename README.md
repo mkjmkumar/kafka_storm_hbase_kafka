@@ -32,7 +32,10 @@ Publish message to Kafka:-
 
 Run Storm Jar:
 In Local Mode:
+
  storm jar target/kafka-0.0.1-SNAPSHOT-jar-with-dependencies.jar apacheStorm.builder.LogAnalyserStorm
+ 
 In Cluster Mode:
+
  storm jar target/kafka-0.0.1-SNAPSHOT-jar-with-dependencies.jar apacheStorm.builder.LogAnalyserStorm victoria.com
  
